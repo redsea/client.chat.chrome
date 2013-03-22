@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile11.dtd" >
+
+<html>
+
+<head>
+	<title>Chat Extension</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<link rel="stylesheet" href="css/smoothness/jquery-ui-1.10.2.custom.min.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/login.css" type="text/css" />
+	
+	<!--<style></style>-->
+
+	<script type="text/javascript" src="js/lib/jquery/core/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery/ui/jquery-ui-1.10.2.custom.min.js"></script>
+	<script type="text/javascript" src="js/lib/knockout/knockout-2.2.1.js"></script>
+	
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+	<div id="area_login">
+		<div id="area_login_header">
+			<div id="txt_title">WEB Chatting</div>
+		</div>
+		
+		<div id="area_login_body">
+			<div class="area_row area_first_row">
+				<span class="area_input_title">ID</span><span class="area_input_div">&nbsp;</span><input id="txt_id" type="text" />
+			</div>
+			<div class="area_row area_last_row">
+				<span class="area_input_title">Password</span><span class="area_input_div">&nbsp;</span><input id="txt_passwd" type="password" />
+			</div>
+			
+			<div id="area_message">
+				<div class="area_empty_height_small"></div>
+				<div class="area_empty_height_small"></div>
+			</div>
+			
+			<div id="area_buttons">
+				<button id="btn_login">Login</button><br/>
+				<div class="area_empty_height_small"></div>
+				<button id="btn_join">Join</button>
+				<button id="btn_join_ok" style="display:none">Ok</button>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+

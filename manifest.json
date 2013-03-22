@@ -1,1 +1,15 @@
-ab
+{
+	"manifest_version": 2,
+
+	"name": "Hello World",
+	"description": "This extension demonstrates a 'browser action' with kittens.",
+	"version": "0.1",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"https://secure.flickr.com/"
+	]
+}

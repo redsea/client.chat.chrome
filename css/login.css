@@ -1,0 +1,75 @@
+#area_login {
+	margin: 1px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 7px;
+	padding-bottom: 9px;
+/* 	padding-bottom: 20px; */
+	-webkit-border-radius: 2px;
+}
+
+#area_login_header {
+	height: 38px;
+	margin-top: 12px;
+}
+
+.area_row {
+	margin: 0;
+	padding: 4px;
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	border-color: #D9D9D9;
+	background-color: white;
+}
+
+.area_first_row {
+	border-top-width: 1px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+
+.area_ing_row {
+	
+}
+
+.area_last_row {
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+}
+
+.area_input_title {
+	width: 70px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.area_input_div {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-left: 1px solid #D9D9D9;
+}
+
+.area_empty_height_small {
+	height: 3px;
+}
+
+#txt_id, #txt_passwd, #txt_nick {
+	outline: none;
+	resize: none;
+	margin-left: 2px;
+	width: 175px;
+	height: 14px;
+	font-size: 12px;
+	color: dimGray;
+	font-family: Helvetica, Arial, sans-serif;
+	border: 0px;
+}
+
+#txt_title {
+	font-size: 20px;
+}
+
+#btn_login, #btn_join, #btn_join_ok {
+	width: 200px;
+	margin-left: 37px;
+}
